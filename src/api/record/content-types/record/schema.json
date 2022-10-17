@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "records",
+  "info": {
+    "singularName": "record",
+    "pluralName": "records",
+    "displayName": "Record"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "operation_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "user_balance": {
+      "type": "decimal"
+    },
+    "operation_response": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
